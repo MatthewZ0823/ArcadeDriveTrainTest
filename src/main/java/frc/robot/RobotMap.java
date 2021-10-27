@@ -6,11 +6,10 @@ public final class RobotMap {
     public static final int DRIVER_JOYSTICK = 0;
 
     public static final class CAN {
-        public static final int TALONFX_DRIVE_BACK_LEFT = -1;
-        public static final int TALONFX_DRIVE_FRONT_LEFT = -1;
-
-        public static final int TALONFX_DRIVE_BACK_RIGHT = -1;
-        public static final int TALONFX_DRIVE_FRONT_RIGHT = -1;  
+        public static final int TALONFX_DRIVE_BACK_LEFT = 4;
+        public static final int TALONFX_DRIVE_FRONT_LEFT = 3;
+        public static final int TALONFX_DRIVE_BACK_RIGHT = 2;
+        public static final int TALONFX_DRIVE_FRONT_RIGHT = 1;  
     }
 
     public static final class DIO {
